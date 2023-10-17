@@ -69,3 +69,22 @@ function generateTransactionId() {
 cryptographic library
 // Return the transaction ID as a string
 }
+
+const newUser = {
+  name: "John Doe",
+  email: "johndoe@example.com",
+  password: "password123",
+  age: 25,
+  gender: "male",
+  address: "123 Main St",
+  city: "Anytown",
+  state: "CA",
+  country: "USA"
+};
+
+function updateUserDetails(newUser) {
+  // code to update user details in database goes here
+}
+
+updateUserDetails(newUser);
+
