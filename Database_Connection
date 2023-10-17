@@ -1,0 +1,22 @@
+pragma solidity ^0.8.0;
+contract BankingSystem {
+// Define the database connection
+address private databaseAddress;
+// Define the constructor to set the
+database address
+constructor(address _databaseAddress) {
+databaseAddress = _databaseAddress;
+}
+// Define the function to get the database
+address
+function getDatabaseAddress() public
+view returns (address) {
+return databaseAddress;
+}
+// Define the function to set the database
+address
+function setDatabaseAddress(address
+_databaseAddress) public {
+databaseAddress = _databaseAddress;
+}
+}
